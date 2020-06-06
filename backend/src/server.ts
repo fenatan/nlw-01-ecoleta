@@ -1,9 +1,9 @@
 import express from 'express';
 
+import routes from './routes';
+
 const app = express();
 
-app.get('/', (req, res) => {
-  return res.status(200).send('Heeeeeey');
-});
+app.use(routes);
 
 app.listen(3333);
