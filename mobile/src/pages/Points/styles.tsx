@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import Constants from 'expo-constants';
 
 const styles = StyleSheet.create({
   container: {
@@ -35,7 +36,7 @@ const styles = StyleSheet.create({
 
   mapMarker: {
     width: 90,
-    height: 80, 
+    height: 80,
   },
 
   mapMarkerContainer: {
