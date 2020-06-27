@@ -31,7 +31,7 @@ class PointsController {
     });
 
     const point = {
-      image: 'imagefake', name, email, whatsapp, latitude, longitude, city, uf,
+      image: 'https://blog.guiabolso.com.br/wp-content/uploads/2018/02/mercado-1-1024x681.jpg', name, email, whatsapp, latitude, longitude, city, uf,
     }
 
     const point_id = ids[0];
