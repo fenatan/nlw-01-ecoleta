@@ -1,13 +1,14 @@
 import React from 'react';
 import { Feather as Icon, FontAwesome } from '@expo/vector-icons';
 import { View, SafeAreaView, Text, TouchableOpacity, Image } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation, useRoute } from '@react-navigation/native';
 import { RectButton } from 'react-native-gesture-handler';
 import styles from './styles';
 
 const Detail = () => {
   const navigation = useNavigation();
-
+  const route = useRoute();
+  console.log(route.params);
   function handleNavigateBack() {
     navigation.goBack();
   }
