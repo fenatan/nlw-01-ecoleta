@@ -62,7 +62,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode][vsco
 $ git clone https://github.com/fenatan/nlw-01-ecoleta.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
+$ cd nlw-01-ecoleta
 
 # Vá para a pasta server
 $ cd server
@@ -83,7 +83,7 @@ $ npm run dev:server
 $ git clone https://github.com/fenatan/nlw-01-ecoleta.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd nlw1
+$ cd nlw-01-ecoleta
 
 # Vá para a pasta da aplicação Front End
 $ cd web
@@ -104,7 +104,7 @@ $ npm run start
 $ git clone https://github.com/fenatan/nlw-01-ecoleta.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd nlw1
+$ cd nlw-01-ecoleta
 
 # Vá para a pasta da aplicação Front End
 $ cd mobile
@@ -133,7 +133,9 @@ $ npm run android
 
 Este projeto esta sobe a licença MIT.
 
-Feito com ❤️ por Felipe Natan 👋🏽 [Entre em contato!](https://www.linkedin.com/in/fenatan/)
+Feito com ❤️ por Felipe Natan 
+
+[Linkedin](https://www.linkedin.com/in/fenatan/)
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
